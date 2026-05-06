@@ -48,7 +48,7 @@ int main(){
         return 1;
     }
 
-    fprintf(file_open, "%s | %s | %s \tSystem Started.\n",date_string, day, time_string);
+    fprintf(file_open, "%s | %s | %s System Started.\n",date_string, day, time_string);
     fclose(file_open);
 
     // Now the main printing part the actually displaying shit in the terminal. 
@@ -59,7 +59,7 @@ int main(){
     printf("Day : %s\n",day);
     printf("Date : %s\n",date_string);
     printf("Time : %s\n",time_string);
-    printf("These details are saved \tsuck..sex..fully !!\n");
+    printf("These details are saved suck..sex..fully !!\n");
     printf("Press enter to close....");
     getchar();
 
