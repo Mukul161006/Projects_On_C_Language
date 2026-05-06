@@ -22,6 +22,9 @@ int main(){
     if ( size == 0 ){
         printf("You Have no written quotes for now.\n");
         fclose(ffp);
+        printf("\nPress Enter to close...");
+        getchar();
+        return 1;
     } 
 
     char print_quote[501];
